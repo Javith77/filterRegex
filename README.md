@@ -37,17 +37,28 @@ Contenido de expresiones regulares utilizadas.
 
 ### Manual de uso
 
+* Ejecute la aplicación, en caso de aparecer un mensaje de WIndows protegio su PC, pulse en mas informacion y luego en ejecutar de todas formas.
+
+<!-- ![image](https://user-images.githubusercontent.com/31388947/188333327-6a17785f-6969-4f04-980e-9f5f193d097a.png) -->
+<!-- ![image](https://user-images.githubusercontent.com/31388947/188333343-6a8893a0-d2bf-4afb-921c-3107f1997dbc.png) -->
+   <img src="https://user-images.githubusercontent.com/31388947/188333327-6a17785f-6969-4f04-980e-9f5f193d097a.png" width="400" height="auto">
+   <img src="https://user-images.githubusercontent.com/31388947/188333343-6a8893a0-d2bf-4afb-921c-3107f1997dbc.png" width="400" height="auto">
+
+
 * Para seleccionar un archivo pulse en el botón Seleccionar.
 
-    ![image](https://user-images.githubusercontent.com/31388947/188332384-503e2a33-e123-43d2-9e78-e1c784c42554.png)
+   <img src="https://user-images.githubusercontent.com/31388947/188332384-503e2a33-e123-43d2-9e78-e1c784c42554.png" width="450" height="auto">
+<!--    ![image](https://user-images.githubusercontent.com/31388947/188332384-503e2a33-e123-43d2-9e78-e1c784c42554.png) -->
 
 *  Para filtrar datos ingrese la fecha con formato (YYYY-MM o YYYY/MM)  y pulse en el botón Buscar
       
-    ![image](https://user-images.githubusercontent.com/31388947/188332422-09d3eece-bed6-483a-9654-e3527b3dcb13.png)
+    <img src="https://user-images.githubusercontent.com/31388947/188332422-09d3eece-bed6-483a-9654-e3527b3dcb13.png" width="450" height="auto">
+<!--     ![image](https://user-images.githubusercontent.com/31388947/188332422-09d3eece-bed6-483a-9654-e3527b3dcb13.png) -->
 
 * Para volver a vizualizar los datos originales deje el campo Fecha vacío y pulse en el botón Buscar.
 
-   ![image](https://user-images.githubusercontent.com/31388947/188332452-0071f181-5e6e-493d-8587-b2f1b54f9f89.png)
+   <img src="https://user-images.githubusercontent.com/31388947/188332452-0071f181-5e6e-493d-8587-b2f1b54f9f89.png" width="450" height="auto">
+<!--    ![image](https://user-images.githubusercontent.com/31388947/188332452-0071f181-5e6e-493d-8587-b2f1b54f9f89.png) -->
 
 
 ### Archivo de prueba
