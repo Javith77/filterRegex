@@ -160,7 +160,7 @@ public class HomeWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSelectActionPerformed
 
     private void btnSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSearchActionPerformed
-        String term = this.txtTerm.getText().isBlank() ? null : this.txtTerm.getText();
+        String term = this.txtTerm.getText().trim().isEmpty()? null : this.txtTerm.getText();
 
         //validate date regex 
         if (term != null && !Regex.isDateYYYYMM(term)) {
@@ -168,7 +168,7 @@ public class HomeWindow extends javax.swing.JFrame {
             return;
         }
         //validate content
-        if (this.txtContent.getText().isBlank() && this.fullContent.isBlank()) {
+        if (term == null && this.fullContent.trim().isEmpty()) {
             JOptionPane.showMessageDialog(null, "No hay datos, puebe cargando un archivo");
             return;
         }
@@ -200,13 +200,13 @@ public class HomeWindow extends javax.swing.JFrame {
             if (Regex.isAllowedtructure(content)) {
                 this.fullContent += content.concat("\r\n");
             }else{
-                String logs = String.format("Formato invalido en la línea %s texto (%s)\r\n", i, content.isBlank() ? "Vacío" : content);
+                String logs = String.format("Formato invalido en la línea %s texto (%s)\r\n", i, content.trim().isEmpty() ? "Vacío" : content);
                 logs = txtLogs.getText().concat(logs);
                 this.txtLogs.setText(logs);
             }
         }
         
-        this.txtContent.setText(this.fullContent.isBlank() ? "No se encontraron registros..." : this.fullContent);
+        this.txtContent.setText(this.fullContent.trim().isEmpty() ? "No se encontraron registros..." : this.fullContent);
     }
     
     /**
@@ -217,7 +217,7 @@ public class HomeWindow extends javax.swing.JFrame {
      */
     private void filterData(String term, String content){
         String contentFiltered = Regex.filterData(term, content);
-        this.txtContent.setText(contentFiltered.isBlank() ? "No se encontraron resultados..." : contentFiltered);
+        this.txtContent.setText(contentFiltered.trim().isEmpty() ? "No se encontraron resultados..." : contentFiltered);
     }
 
     /**
