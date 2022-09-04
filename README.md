@@ -33,7 +33,7 @@ Contenido de expresiones regulares utilizadas.
 ###### Filtra los datos que coinciden con la fecha ingresada y placas para motocicletas o derivados ($exp1 = año ingresado) ($exp2 = mes ingresado)
     /^($exp1)(-|\/)($exp2)(-|\/)(0[1-9]|10|11|12);[A-Z]{3}(-|\s)?[0-9]{2}[A-Z].+/gmi
 
-    Ejemplo: /^(2022)(-|\/)(10)(-|\/)(0[1-9]|10|11|12);[A-Z]{3}(-|\s)?[0-9]{2}[A-Z].+/gmi
+- Ejemplo: /^(2022)(-|\/)(10)(-|\/)(0[1-9]|10|11|12);[A-Z]{3}(-|\s)?[0-9]{2}[A-Z].+/gmi
 
 ### Archivo de prueba
     2022-10-01;aga 84G;15;Es una moto
