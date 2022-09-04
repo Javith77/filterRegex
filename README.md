@@ -27,11 +27,11 @@ Al cargar el archivo se verificará la estructura de cada línea, en caso de err
 Contenido de expresiones regulares utilizadas.
 
 ###### Valida la estructura del archivo (multi line, insensitive)
-    ^(([1][9]\d{2})|([2]\d{3}))(-|/)(0[1-9]|10|11|12)(-|/)(0[1-9]|1[1-9]|2[1-9]|3[1]);([A-Z]{3}(-|\s)?\d{3}|[A-Z]{3}(-|\s)?\d{2}[a-zA-Z]|[A-Z]{1}(-|\s)?\d{4}|[A-Z]{2}(-|\s)?\d{4}|(R|S)(-|\s)?\d{5});\d+;.+
+    /^(([1][9]\d{2})|([2]\d{3}))(-|\/)(0[1-9]|10|11|12)(-|\/)(0[1-9]|1[1-9]|2[1-9]|3[1]);([A-Z]{3}(-|\s)?\d{3}|[A-Z]{3}(-|\s)?\d{2}[a-zA-Z]|[A-Z]{1}(-|\s)?\d{4}|[A-Z]{2}(-|\s)?\d{4}|(R|S)(-|\s)?\d{5});[+]?\d+;.+/gmi
 ###### Valida el formato de entrada de la fecha (YYY-MM) o (YYYY/MM) en un rango de 1900 hasta 2999
-    ^(([1][9][0-9][0-9])|([2][0-9][0-9][0-9]))(-|/)(0[1-9]|10|11|12)$
+    /^(([1][9][0-9][0-9])|([2][0-9][0-9][0-9]))(-|/)(0[1-9]|10|11|12)$/gmi
 ###### Filtra los datos que coinciden con la fecha ingresada y placas para motocicletas o derivados ($exp1 = año ingresado) ($exp2 = mes ingresado)
-    ^($exp1)(-|/)($exp2)(-|/)(0[1-9]|10|11|12);[A-Z]{3}(-|\s)?[0-9]{2}[A-Z].+
+    /^($exp1)(-|/)($exp2)(-|/)(0[1-9]|10|11|12);[A-Z]{3}(-|\s)?[0-9]{2}[A-Z].+/gmi
 
     Ejemplo: ^(2022)(-|/)(10)(-|/)(0[1-9]|10|11|12);[A-Z]{3}(-|\s)?[0-9]{2}[A-Z].+
 

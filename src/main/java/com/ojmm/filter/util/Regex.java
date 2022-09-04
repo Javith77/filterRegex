@@ -16,7 +16,7 @@ public class Regex {
     private static final String REGEX_YYYY_MM = "^(([1][9][0-9][0-9])|([2][0-9][0-9][0-9]))(-|/)(0[1-9]|10|11|12)$";
     private static final String REGEX_DATE_DYNAMIC = "^($exp1)(-|/)($exp2)(-|/)(0[1-9]|10|11|12);[A-Z]{3}(-|\\s)?[0-9]{2}[A-Z].+";
 //    private static final String REGEX_DOCUMENT_STRUCTURE = "^(.+;.+;.+;.+)$";
-    private static final String REGEX_DOCUMENT_STRUCTURE = "^(([1][9]\\d{2})|([2]\\d{3}))(-|/)(0[1-9]|10|11|12)(-|/)(0[1-9]|1[1-9]|2[1-9]|3[1]);([A-Z]{3}(-|\\s)?\\d{3}|[A-Z]{3}(-|\\s)?\\d{2}[a-zA-Z]|[A-Z]{1}(-|\\s)?\\d{4}|[A-Z]{2}(-|\\s)?\\d{4}|(R|S)(-|\\s)?\\d{5});\\d+;.+";
+    private static final String REGEX_DOCUMENT_STRUCTURE = "^(([1][9]\\d{2})|([2]\\d{3}))(-|/)(0[1-9]|10|11|12)(-|/)(0[1-9]|1[1-9]|2[1-9]|3[1]);([A-Z]{3}(-|\\s)?\\d{3}|[A-Z]{3}(-|\\s)?\\d{2}[a-zA-Z]|[A-Z]{1}(-|\\s)?\\d{4}|[A-Z]{2}(-|\\s)?\\d{4}|(R|S)(-|\\s)?\\d{5});[+]?\\d+;.+";
     
     /**
      * evaluate date expression

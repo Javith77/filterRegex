@@ -69,7 +69,6 @@ public class HomeWindow extends javax.swing.JFrame {
             }
         });
 
-        txtTerm.setToolTipText("yyyy-dd o yyyy/dd");
         txtTerm.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
 
         btnSearch.setText("Buscar");
@@ -84,7 +83,7 @@ public class HomeWindow extends javax.swing.JFrame {
         txtContent.setBackground(new java.awt.Color(255, 255, 255));
         txtContent.setEditable(false);
 
-        jLabel3.setText("Fecha (YYYY/DD o YYYY-DD):");
+        jLabel3.setText("Fecha (YYYY/MM o YYYY-MM):");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
