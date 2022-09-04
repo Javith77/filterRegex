@@ -35,6 +35,21 @@ Contenido de expresiones regulares utilizadas.
 
 - Ejemplo: /^(2022)(-|\/)(10)(-|\/)(0[1-9]|10|11|12);[A-Z]{3}(-|\s)?[0-9]{2}[A-Z].+/gmi
 
+### Manual de uso
+
+* Para seleccionar un archivo pulse en el botón Seleccionar.
+
+    ![image](https://user-images.githubusercontent.com/31388947/188332384-503e2a33-e123-43d2-9e78-e1c784c42554.png)
+
+*  Para filtrar datos ingrese la fecha con formato (YYYY-MM o YYYY/MM)  y pulse en el botón Buscar
+      
+    ![image](https://user-images.githubusercontent.com/31388947/188332422-09d3eece-bed6-483a-9654-e3527b3dcb13.png)
+
+* Para volver a vizualizar los datos originales deje el campo Fecha vacío y pulse en el botón Buscar.
+
+   ![image](https://user-images.githubusercontent.com/31388947/188332452-0071f181-5e6e-493d-8587-b2f1b54f9f89.png)
+
+
 ### Archivo de prueba
     2022-10-01;aga 84G;15;Es una moto
     2022-10-01;AGA-85G;15;Es una moto
