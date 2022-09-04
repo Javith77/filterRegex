@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package com.ojmm.filter;
 
 import com.ojmm.filter.util.Regex;
@@ -186,7 +182,7 @@ public class HomeWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSearchActionPerformed
 
     /**
-     * read file 
+     * read uploaded file
      * 
      * @param path
      * @throws FileNotFoundException 
@@ -215,7 +211,7 @@ public class HomeWindow extends javax.swing.JFrame {
     }
     
     /**
-     * filter data
+     * filter original data
      * 
      * @param term
      * @param content 

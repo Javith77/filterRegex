@@ -20,7 +20,7 @@ public class Regex {
     
     /**
      * evaluate date expression
-     * @param term (yyyy (- o /) dd)
+     * @param term (yyyy (- o /) mm)
      * @return 
      */
     public static boolean isDateYYYYMM(String term){
@@ -28,7 +28,7 @@ public class Regex {
     }
     
      /**
-     * evaluation of license plate exprecion
+     * evaluation of license plate expression
      * 
      * @param term
      * @return 
