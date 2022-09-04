@@ -37,7 +37,7 @@ Contenido de expresiones regulares utilizadas.
 
 ### Manual de uso
 
-* Ejecute la aplicación, en caso de aparecer un mensaje de WIndows protegio su PC, pulse en mas informacion y luego en ejecutar de todas formas.
+* Ejecute la aplicación, en caso de aparecer un mensaje de Windows protegio su PC, pulse en mas informacion y luego en ejecutar de todas formas.
 
 <!-- ![image](https://user-images.githubusercontent.com/31388947/188333327-6a17785f-6969-4f04-980e-9f5f193d097a.png) -->
 <!-- ![image](https://user-images.githubusercontent.com/31388947/188333343-6a8893a0-d2bf-4afb-921c-3107f1997dbc.png) -->
